@@ -19,12 +19,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="http://creative-tim.com">
+            <a href="https://www.linkedin.com/in/juyoung-park-to">
               <div class="logo-container">
                 <div class="logo">
-                  <img src="assets/img/new_logo.png" />
+                  <img src="assets/img/profile1.jpeg" />
                 </div>
-                <div class="brand">Creative Tim</div>
+                <div class="brand">Juyoung Park</div>
               </div>
             </a>
           </div>
@@ -35,14 +35,21 @@
             id="bs-example-navbar-collapse-1"
           >
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="components.html">Components</a></li>
+              <li>
+                <!-- Button trigger modal -->
+                <a href="#" data-toggle="modal" data-target="#myModal">
+                  Projects
+                </a>
+              </li>
 
               <li>
                 <a
-                  href="http://www.creative-tim.com/product/get-shit-done-kit"
+                  href="/assets/files/JuyoungPark_fullstack_resume_dark.pdf"
                   class="btn btn-round btn-default"
-                  >Download</a
+                  download
                 >
+                  Download
+                </a>
               </li>
             </ul>
           </div>
@@ -55,10 +62,10 @@
 
     <div class="blurred-container">
       <div class="motto">
-        <div>Get</div>
-        <div class="border no-right-border">Sh</div>
-        <div class="border">it</div>
-        <div>Done</div>
+        <div>Juyoung</div>
+        <div class="border no-right-border">Full</div>
+        <div class="border">Stack</div>
+        <div>Park</div>
       </div>
       <div
         class="img-src"
@@ -78,5 +85,8 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "NavigationBar",
   setup() {},
+  methods: {
+    clickProjects() {},
+  },
 });
 </script>
