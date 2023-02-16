@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link href="<%= BASE_URL %>bootstrap3/css/bootstrap.css" rel="stylesheet" />
+  <link href="<%= BASE_URL %>bootstrap3/css/font-awesome.css" rel="stylesheet" />
+
+  <!--     Font Awesome     -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+
+  <link href="<%= BASE_URL %>assets/css/gsdk.css" rel="stylesheet" />
+  <link href="<%= BASE_URL %>assets/css/demo.css" rel="stylesheet" />
+
+  <link rel="icon" href="<%= BASE_URL %>ribbon-icon.png">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <script src="<%= BASE_URL %>jquery/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="<%= BASE_URL %>assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+  <script src="<%= BASE_URL %>bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+  <script src="<%= BASE_URL %>assets/js/gsdk-checkbox.js"></script>
+  <script src="<%= BASE_URL %>assets/js/gsdk-radio.js"></script>
+  <script src="<%= BASE_URL %>assets/js/gsdk-bootstrapswitch.js"></script>
+  <script src="<%= BASE_URL %>assets/js/get-shit-done.js"></script>
+  <script src="<%= BASE_URL %>assets/js/custom.js"></script>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
