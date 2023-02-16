@@ -1,13 +1,10 @@
 <template>
   <div>
     <NavigationBar />
-
     <HomeMain />
-
+    <ModalWidget />
     <AboutMe />
-
     <CarouselWidget />
-
     <HomeFooter />
   </div>
 </template>
@@ -20,8 +17,17 @@ import HomeMain from "@/components/HomeMain.vue";
 import CarouselWidget from "@/components/CarouselWidget.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import HomeFooter from "@/components/HomeFooter.vue";
+import ModalWidget from "@/components/ModalWidget.vue";
+
 export default defineComponent({
   setup() {},
-  components: { NavigationBar, HomeMain, CarouselWidget, AboutMe, HomeFooter },
+  components: {
+    NavigationBar,
+    HomeMain,
+    CarouselWidget,
+    AboutMe,
+    HomeFooter,
+    ModalWidget,
+  },
 });
 </script>
