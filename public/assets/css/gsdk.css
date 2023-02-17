@@ -2161,6 +2161,10 @@ fieldset[disabled] .form-control {
   background-color: #d7a1f9;
 }
 
+.navbar-ct-neon_purple {
+  background-color: #9D00FF
+}
+
 .navbar-transparent {
   padding-top: 15px;
   background-color: transparent;
