@@ -1,6 +1,6 @@
 # personal-website
 
-# [Website Link](juyoungpark-dev.vercel.app)
+# [Website Link](https://juyoungpark-dev.vercel.app)
 
 ## Project setup
 ```
