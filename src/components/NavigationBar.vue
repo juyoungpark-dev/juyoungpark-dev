@@ -48,7 +48,7 @@
                   class="btn btn-round btn-default"
                   download
                 >
-                  Download
+                  Download Resume
                 </a>
               </li>
             </ul>
