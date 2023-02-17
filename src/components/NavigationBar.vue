@@ -2,7 +2,7 @@
   <div id="navbar-full">
     <div class="container">
       <nav
-        class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top"
+        class="navbar navbar-ct-neon_purple navbar-transparent navbar-fixed-top"
         role="navigation"
       >
         <div class="container">
@@ -69,11 +69,11 @@
       </div>
       <div
         class="img-src"
-        style="background-image: url('assets/img/cover_4.jpg')"
+        style="background-image: url('assets/img/code_bg_dark.jpg')"
       ></div>
       <div
         class="img-src blur"
-        style="background-image: url('assets/img/cover_4_blur.jpg')"
+        style="background-image: url('assets/img/code_bg_dark_blur.jpg')"
       ></div>
     </div>
   </div>
