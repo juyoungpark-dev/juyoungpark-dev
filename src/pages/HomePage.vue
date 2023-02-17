@@ -24,8 +24,8 @@ export default defineComponent({
   components: {
     NavigationBar,
     HomeMain,
-    // CarouselWidget,
     AboutMe,
+    // CarouselWidget,
     // HomeFooter,
     ModalWidget,
   },
